@@ -45,10 +45,10 @@ public class LoginTests {
 		Thread.sleep(1000);
 		driver.quit();
 	}
-	@Test
+	@Test (enabled= false)
 	public void validLoginTest() {
-		loginPOM.sendUserName("admin");
-		loginPOM.sendPassword("admin@123");
+		loginPOM.sendUserName("Srini0209g");
+		loginPOM.sendPassword("Srin@0209");
 		loginPOM.clickLoginBtn(); 
 		screenShot.captureScreenShot("First");
 	}
