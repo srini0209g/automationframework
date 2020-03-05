@@ -1,43 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="2" total="3" passed="0">
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="47178" started-at="2020-03-04T07:36:16Z" finished-at="2020-03-04T07:37:03Z">
+  <suite name="Default suite" duration-ms="137151" started-at="2020-03-05T06:49:19Z" finished-at="2020-03-05T06:51:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="47178" started-at="2020-03-04T07:36:16Z" finished-at="2020-03-04T07:37:03Z">
-      <class name="com.training.sanity.tests.PasswordChange">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.PasswordChange@7823a2f9]" name="setUpBeforeClass" is-config="true" duration-ms="13" started-at="2020-03-04T13:06:16Z" finished-at="2020-03-04T13:06:16Z">
+    <test name="Default test" duration-ms="137151" started-at="2020-03-05T06:49:19Z" finished-at="2020-03-05T06:51:36Z">
+      <class name="com.training.sanity.tests.LoginTests">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.LoginTests@7823a2f9]" name="setUpBeforeClass" is-config="true" duration-ms="2" started-at="2020-03-05T12:20:51Z" finished-at="2020-03-05T12:20:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.PasswordChange@7823a2f9]" name="setUp" is-config="true" duration-ms="13021" started-at="2020-03-04T13:06:16Z" finished-at="2020-03-04T13:06:29Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.LoginTests@7823a2f9]" name="setUp" is-config="true" duration-ms="12460" started-at="2020-03-05T12:20:51Z" finished-at="2020-03-05T12:21:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="passwordchange()[pri:0, instance:com.training.sanity.tests.PasswordChange@7823a2f9]" name="passwordchange" duration-ms="32103" started-at="2020-03-04T13:06:29Z" finished-at="2020-03-04T13:07:01Z">
+        <test-method status="PASS" signature="validLoginTest()[pri:2, instance:com.training.sanity.tests.LoginTests@7823a2f9]" name="validLoginTest" duration-ms="3291" started-at="2020-03-05T12:21:03Z" finished-at="2020-03-05T12:21:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.LoginTests@7823a2f9]" name="tearDown" is-config="true" duration-ms="1875" started-at="2020-03-05T12:21:07Z" finished-at="2020-03-05T12:21:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.sanity.tests.LoginTests -->
+      <class name="com.training.sanity.tests.PasswordChange">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.PasswordChange@457e2f02]" name="setUpBeforeClass" is-config="true" duration-ms="1" started-at="2020-03-05T12:21:08Z" finished-at="2020-03-05T12:21:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.PasswordChange@457e2f02]" name="setUp" is-config="true" duration-ms="11562" started-at="2020-03-05T12:21:08Z" finished-at="2020-03-05T12:21:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="passwordchange()[pri:3, instance:com.training.sanity.tests.PasswordChange@457e2f02]" name="passwordchange" duration-ms="14100" started-at="2020-03-05T12:21:20Z" finished-at="2020-03-05T12:21:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordchange -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.PasswordChange@457e2f02]" name="tearDown" is-config="true" duration-ms="1891" started-at="2020-03-05T12:21:34Z" finished-at="2020-03-05T12:21:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.sanity.tests.PasswordChange -->
+      <class name="com.training.sanity.tests.SignUp">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.SignUp@4cc0edeb]" name="setUpBeforeClass" is-config="true" duration-ms="16" started-at="2020-03-05T12:19:19Z" finished-at="2020-03-05T12:19:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.SignUp@4cc0edeb]" name="setUp" is-config="true" duration-ms="28916" started-at="2020-03-05T12:19:19Z" finished-at="2020-03-05T12:19:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="SignUp()[pri:1, instance:com.training.sanity.tests.SignUp@4cc0edeb]" name="SignUp" duration-ms="52117" started-at="2020-03-05T12:19:48Z" finished-at="2020-03-05T12:20:40Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Edit profile"}
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='official_code']"}
   (Session info: chrome=80.0.3987.132)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
 System info: host: 'SRIGEDDA', ip: '9.195.108.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\srigedda\AppData\Local\Temp\scoped_dir11960_91659963}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54675}, acceptInsecureCerts=false, browserVersion=80.0.3987.132, browserName=chrome, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true}]
-Session ID: f19218cfd529c3ae296ae443b31383e0
-*** Element info: {Using=link text, value=Edit profile}]]>
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\srigedda\AppData\Local\Temp\scoped_dir9480_370591365}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:64215}, acceptInsecureCerts=false, browserVersion=80.0.3987.132, browserName=chrome, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true}]
+Session ID: f051b2e8eb44262839db9ca2adbeef9a
+*** Element info: {Using=name, value=official_code}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Edit profile"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='official_code']"}
   (Session info: chrome=80.0.3987.132)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
 System info: host: 'SRIGEDDA', ip: '9.195.108.173', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\srigedda\AppData\Local\Temp\scoped_dir11960_91659963}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:54675}, acceptInsecureCerts=false, browserVersion=80.0.3987.132, browserName=chrome, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true}]
-Session ID: f19218cfd529c3ae296ae443b31383e0
-*** Element info: {Using=link text, value=Edit profile}
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}), userDataDir=C:\Users\srigedda\AppData\Local\Temp\scoped_dir9480_370591365}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:64215}, acceptInsecureCerts=false, browserVersion=80.0.3987.132, browserName=chrome, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true}]
+Session ID: f051b2e8eb44262839db9ca2adbeef9a
+*** Element info: {Using=name, value=official_code}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -49,14 +85,14 @@ Session ID: f19218cfd529c3ae296ae443b31383e0
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:410)
-	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:434)
+	at org.openqa.selenium.By$ByName.findElement(By.java:303)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy10.click(Unknown Source)
-	at com.training.pom.PasswordchangePOM.editProfile(PasswordchangePOM.java:57)
-	at com.training.sanity.tests.PasswordChange.passwordchange(PasswordChange.java:57)
+	at com.sun.proxy.$Proxy10.sendKeys(Unknown Source)
+	at com.training.pom.SignUPPOM.code(SignUPPOM.java:109)
+	at com.training.sanity.tests.SignUp.SignUp(SignUp.java:59)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -87,12 +123,12 @@ Session ID: f19218cfd529c3ae296ae443b31383e0
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- passwordchange -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.PasswordChange@7823a2f9]" name="tearDown" is-config="true" duration-ms="1983" started-at="2020-03-04T13:07:01Z" finished-at="2020-03-04T13:07:03Z">
+        </test-method> <!-- SignUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.SignUp@4cc0edeb]" name="tearDown" is-config="true" duration-ms="10856" started-at="2020-03-05T12:20:40Z" finished-at="2020-03-05T12:20:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.PasswordChange -->
+      </class> <!-- com.training.sanity.tests.SignUp -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
