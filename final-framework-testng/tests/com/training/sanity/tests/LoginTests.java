@@ -44,7 +44,7 @@ public class LoginTests {
 	public void tearDown() throws Exception {
 	Thread.sleep(1000);
 	driver.quit();
-	}
+	}//test
 	@Test (enabled= true,priority=2)
 	public void validLoginTest() {
 		loginPOM.sendUserName("Srini0209e");
